@@ -1,0 +1,18 @@
+version: 1
+
+sources:
+    - name: headofdata
+      description: Sources of data from bigquery
+      database: head-of-data-470116
+      schema: schema
+      tables:
+          - name: campaigns_raw
+            description: Details on all campaigns by customers
+          - name: donations_raw
+            description: Includes all donations with lookups to campaigns.
+          - name: donors_raw
+            description: Includes all donors, names and emails.            
+          - name: organizations_raw
+            description: Details about organizations and additional firmographic information.
+          - name: extsignals_raw
+            description: Includes macro signals like CPI, employment rate, etc. 
