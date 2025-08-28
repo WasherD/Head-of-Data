@@ -36,7 +36,6 @@ Business logic and transformations:
 ├── models/
 │   ├── staging/        # Raw data cleaning (stg_*)
 │   ├── marts/          # Business logic models
-│   └── analytics/      # Reporting-ready views
 ├── seeds/              # Static reference data
 ├── snapshots/          # Point-in-time captures
 ├── tests/              # Data quality tests
